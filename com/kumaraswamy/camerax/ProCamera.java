@@ -258,7 +258,10 @@ public class ProCamera extends AndroidNonvisibleComponent implements View.OnTouc
     public int CameraTypeRear() {
         return 1;
     }
-
+ @SimpleProperty
+    public int CameraTypeRear() {
+        return 2;
+    }
     @SimpleProperty
     public int CurrentCameraType() {
         return cameraType;
